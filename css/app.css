@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #b9b9b94d;
+}
+
+.data-bar{
+ position: absolute;
+ margin-left: 15px;
+ width: 170px;
+ display: none;
+}
+
+#file-input
+{
+    margin-top:15px;
+    margin-left: 15px;
+}
+
+.desc{
+
+    width: 170px;
+    position: fixed;
+    right: 10px;
+    display: none;
+
+}
+
+.red, .green{
+
+ width:20px ;
+
+ height: 8px;
+
+ display: inline-block;
+
+}
+
+.green{
+
+    background-color: green !important;
+}
+
+.red{
+
+    background-color: red !important;
+}
